@@ -1,0 +1,17 @@
+
+
+<html>
+
+<script src="components/jquery/dist/jquery.js" type="text/javascript"></script>
+
+<script>
+
+$.getJSON("./api.php", function(myJavascriptDogObject) {
+	$("#place-to-put-things").html(myJavascriptDogObject.goes);
+});
+
+</script>
+
+<div id="place-to-put-things"></div>
+
+</html>

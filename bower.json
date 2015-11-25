@@ -1,0 +1,22 @@
+{
+  "name": "HI_TravelData",
+  "homepage": "https://github.com/mrs1991/HI_TravelData",
+  "authors": [
+    "mrs1991 <rosanna.shackleton@nhs.net>"
+  ],
+  "description": "HI POC Travel Site",
+  "main": "",
+  "moduleType": [],
+  "license": "lgpl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
